@@ -45,7 +45,6 @@ def Update_clock():
     root.after(1000, Update_clock)
 
 
-# ساخت پنجره اصلی
 root = tk.Tk()
 root.title("ساعت محلی و لندن")
 root.geometry("450x300")
